@@ -6,7 +6,6 @@ Backend APIs which provides endpoints to manage todos and tags.
 
 ## Project Layout:
 <pre>
-.
 todoMiniBackend
 ├── README.md
 ├── Server.js
