@@ -1,8 +1,20 @@
 # todoMiniBackend
 Backend APIs which provides endpoints to manage todos and tags.
 
-## Project Setup
+## Project Setup:
 
+- Clone the project in a directory of your choice.
+- Go the directory by running the command
+    -     cd todoMiniBackend
+- Install the required packages while in the root-directory of the project by running the below mentioned command in the terminal".
+    -     npm install express
+    -     npm install mongoose
+    -     npm install cors
+- Configure the database:
+    -     Edit the file todoMiniBackend/models/tag.js line 4 with your username, password and database cluster name. (mongoose.connect('mongodb+srv://Enter_Your_UserName:Enter_Your_Password@Enter_Your_Database_Cluster_Name');)
+    -     Edit the file todoMiniBackend/models/todo.js line 4 with your username, password and database cluster name. (mongoose.connect('mongodb+srv://Enter_Your_UserName:Enter_Your_Password@Enter_Your_Database_Cluster_Name');)
+
+- Once setup is done you'll see the below project layout.
 
 ## Project Layout:
 <pre>
@@ -102,3 +114,7 @@ todoMiniBackend
     ├── tagRoutes.js
     └── todoRoutes.js
 </pre>
+
+## Bringing up the server:
+- Run the below command
+    -     node Server.js
