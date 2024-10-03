@@ -1,10 +1,10 @@
 # todoMiniBackend
 Backend APIs which provides endpoints to manage todos and tags.
 
-##Project Setup
+#Project Setup
 
 
-##Project Layout:
+#Project Layout:
 
 todoMiniBackend
 ├── README.md
