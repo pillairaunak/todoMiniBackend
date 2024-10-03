@@ -4,9 +4,9 @@ Backend APIs which provides endpoints to manage todos and tags.
 ## Project Setup:
 
 - Clone the project in a directory of your choice.
-- Go the directory by running the command
+- Go to the directory by running the command
     -     cd todoMiniBackend
-- Install the required packages while in the root-directory of the project by running the below mentioned command in the terminal".
+- Install the required packages while in the root-directory of the project by running the below mentioned command in the terminal.
     -     npm install express
     -     npm install mongoose
     -     npm install cors
