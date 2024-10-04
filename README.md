@@ -1,5 +1,5 @@
 # todoMiniBackend
-Backend APIs which provides endpoints to manage todos and tags.
+Backend APIs which provides endpoints to manage todos and tags. Add tags (e.g. 'work', 'social', 'miscellaneous'...) so we can add one or more tag to todos (many-to-many relationship between todos and tags).
 
 ## Project Setup:
 
