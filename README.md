@@ -16,7 +16,7 @@ Backend APIs which provides endpoints to manage todos and tags. Add tags (e.g. '
          {
             "id":"66efcf1f8a9a3f040a03b0a4",
             "title":"Health",
-            "url":"http://todo.thing.zone/tags/66efcf1f8a9a3f040a03b0a4"
+            "url":"http://localhost:8080/tags/66efcf1f8a9a3f040a03b0a4"
          }
       ]
    }
