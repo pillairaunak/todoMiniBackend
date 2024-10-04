@@ -7,15 +7,15 @@ Backend APIs which provides endpoints to manage todos and tags. Add tags (e.g. '
 [
    {
       "id":"66efcf1f8a9a3f040a03b0a3",
-      "title":"joined todo",
+      "title":"Exercise for 30 mins",
       "completed":false,
       "order":1,
-      "url":"http://todo.thing.zone/todos/66efcf1f8a9a3f040a03b0a3",
+      "url":"http://localhost:8080/todos/66efcf1f8a9a3f040a03b0a3",
 
       "tags":[
          {
             "id":"66efcf1f8a9a3f040a03b0a4",
-            "title":"associated tag",
+            "title":"Health",
             "url":"http://todo.thing.zone/tags/66efcf1f8a9a3f040a03b0a4"
          }
       ]
@@ -28,16 +28,16 @@ Backend APIs which provides endpoints to manage todos and tags. Add tags (e.g. '
 [
    {
       "id":"66efcf1f8a9a3f040a03b0a4",
-      "title":"associated tag",
-      "url":"http://todo.thing.zone/tags/66efcf1f8a9a3f040a03b0a4",
+      "title":"Health",
+      "url":"http://localhost:8080/tags/66efcf1f8a9a3f040a03b0a4",
       
       "todos":[
          {
             "id":"66efcf1f8a9a3f040a03b0a3",
-            "title":"joined todo",
+            "title":"Exercise for 30 mins",
             "completed":false,
             "order":1,
-            "url":"http://todo.thing.zone/todos/66efcf1f8a9a3f040a03b0a3"
+            "url":"http://localhost:8080/todos/66efcf1f8a9a3f040a03b0a3"
          }
       ]
 
