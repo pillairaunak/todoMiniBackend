@@ -1,6 +1,53 @@
 # todoMiniBackend
 Backend APIs which provides endpoints to manage todos and tags. Add tags (e.g. 'work', 'social', 'miscellaneous'...) so we can add one or more tag to todos (many-to-many relationship between todos and tags).
 
+### Sample Todo:
+
+```json
+[
+   {
+      "id":"66efcf1f8a9a3f040a03b0a3",
+      "title":"joined todo",
+      "completed":false,
+      "order":1,
+      "url":"http://todo.thing.zone/todos/66efcf1f8a9a3f040a03b0a3",
+
+      "tags":[
+         {
+            "id":"66efcf1f8a9a3f040a03b0a4",
+            "title":"associated tag",
+            "url":"http://todo.thing.zone/tags/66efcf1f8a9a3f040a03b0a4"
+         }
+      ]
+   }
+]
+```
+
+### Sample Tag:
+``` json
+[
+   {
+      "id":"66efcf1f8a9a3f040a03b0a4",
+      "title":"associated tag",
+      "url":"http://todo.thing.zone/tags/66efcf1f8a9a3f040a03b0a4",
+      
+      "todos":[
+         {
+            "id":"66efcf1f8a9a3f040a03b0a3",
+            "title":"joined todo",
+            "completed":false,
+            "order":1,
+            "url":"http://todo.thing.zone/todos/66efcf1f8a9a3f040a03b0a3"
+         }
+      ]
+
+
+   }
+]
+
+```
+
+
 ## Project Setup:
 
 - Clone the project in a directory of your choice.
